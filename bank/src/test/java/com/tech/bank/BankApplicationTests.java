@@ -1,4 +1,4 @@
-package com.tech.bank;
+/*package com.tech.bank;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,3 +14,4 @@ public class BankApplicationTests {
 	}
 
 }
+*/
