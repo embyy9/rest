@@ -9,17 +9,17 @@ import com.tm4j.main.Calculator;
 public class CalculatorSumTest {
     
     @Test
-    @TestCase(key = "Q1-T1")
+    @TestCase(key = "Q1-T22")
     public void sumTwoNumbersAndPass() {
         Calculator calculator = new Calculator();
         Assert.assertEquals(5, calculator.sum(3, 2));
     }
  
     @Test
-    @TestCase(key = "Q1-T2")
+    @TestCase(key = "Q1-T44")
     public void sumTwoNumbersAndFail() {
         Calculator calculator = new Calculator();
-        Assert.assertNotEquals(2, calculator.sum(1, 2));
+        Assert.assertEquals(2, calculator.sum(1, 2));
     }
  
     @Test
