@@ -19,13 +19,13 @@ public class CalculatorSumTest {
     @TestCase(key = "Q1-T44")
     public void sumTwoNumbersAndFail() {
         Calculator calculator = new Calculator();
-        Assert.assertEquals(2, calculator.sum(1, 2));
+        Assert.assertEquals(3, calculator.sum(1, 2));
     }
  
     @Test
     public void notMappedToTestCaseAndPass() {
         Calculator calculator = new Calculator();
-        Assert.assertEquals(3, calculator.sum(1, 2));
+        Assert.assertEquals(4, calculator.sum(1, 3));
     }
  
     @Test
